@@ -39,7 +39,7 @@ Login now requires a minimum of 8 characters for the password, as well as a capi
 
 In the Item Details, the user is now able to set their low stock amount so they may be notified once that custom amount is hit for that particular item. The detail fragments are now dialogue fragments, allowing them to overlay the fragments they come from without needing to replace them entirely. This reduces navigation overhead and provides modern interaction. User Details are a new feature, with the only edit ability currently being the ability to change a user’s role. I disabled the ability for the logged in admin user from being able to edit or delete their own account, but they can still view their own details. The footer adapts by active Fragment, and calculates totals via new Database queries. They update after adding items, editing details, and deleting items or users.
 
-<img src="images/DialogueFragment.png" width="600"> <img src="images/EditUser.png" width="600"> <img src="images/EditUserAdmin.png" width="600">
+<img src="images/DialogueFragment.png" width="600"> <img src="images/EditUser.png" width="700"> <img src="images/EditUserAdmin.png" width="700">
 
 
 ### Skills Demonstrated
