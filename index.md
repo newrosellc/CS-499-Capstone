@@ -4,9 +4,7 @@ title: SNHU Computer Science Capstone
 ---
 
 # SNHU Computer Science Capstone
-## Amber Rose
-
-# Professional Self-Assessment
+## Professional Self-Assessment
 
 ## Introduction
 
