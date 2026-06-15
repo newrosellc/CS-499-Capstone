@@ -6,11 +6,11 @@ title: SNHU Computer Science Capstone
 # SNHU Computer Science Capstone
 ## Professional Self-Assessment
 
-#### Introduction
+### Introduction
 
 I am Amber Rose. I am an artist, a gamer, a math enthusiast, and a Computer Science major. I have reached the completion of my Computer Science program, having worked and learned a great deal since beginning this journey since January of 2024. Along the way, I picked up a number of skills that will carry onto any field I apply myself to. I am currently employed as an Algebra Highshool teacher, and I plan to help my students understand how to think using logic, as the universe operates on a rule-based system. I hope to utilize my degree to not only teach my students skills that they will need in this technologically evolving landscape, but to create tools that can facilitate that process further.
 
-#### Reflecting on my Education
+### Reflecting on my Education
 
 Throughout my Computer Science program at SNHU, I’ve learned to design and build complete, secure, and structured software systems. Completing coursework that taught me data stuctures, databases, software security, algorithms, and even gaming design, by my own selection, has helped me develop a stronger foundation in technical skill, problem-solving, and designing for user experience. The most valueable lessons I learned, from a Computer Science best practice standpoint, were SCRUM, Object Oriented Programming, Database design, and the three A's of security: Automation, Authentication, and Authorization. I've learned how to utilize protyping and iteration in order complete projects based upon priority and security in order to deploy software capable of meeting the conditions of completion. More importantly, this Capstone allows me to reflect on all that I've learned and allowed me to apply that knowledge to demonstrate my ability to design scalable solutions, recognize and protect vulnerable software, and refactor code to promote efficiency while ackowledging trade-offs.
 
@@ -22,11 +22,11 @@ As an artist and gamer, I also feel I shine most when given the opportunity to d
 
 Overall, the skills I've learned in this program have broadened my horizons and deepened my understanding of the technological space. It has given me a greater confidence in my ability to work in a team and develop software on a week to week basis. I feel capable in my skill set, and confident in my ability to contribute to many different areas, from databasing, to architecture, to algorithms and security. 
 
-#### Capstone Artifacts
+### Capstone Artifacts
 
 For my Capstone, I present the projects I completed in my CS 360 Mobile Architecture & Programming course and my CS 330 Computer Graphics and Visualization course. The project in CS 360 was a mobile Android application made with Android Studio, bridging the two enchancements of software engineering and databases. The application is an Inventory App that allows users to create, edit and remove inventory items and track their quantities, with notification capabilities. I chose this artifact because it allowed me to show my ability to recognize the needs of a diverse user base, demonstrates my understanding of user UI/UX and gave me the room to refactor a project to improve data security and database queries. While I could have used that project to to demonstrate my skills in algorthms and data structures, I wanted to chance to show a project that I was quite proud of by using my CS 330 OpenGL project made in Visual Studios. Although majority of the project was made from a provided template, and my part of the assignment was to use code to recreate a visual scene, I noticed a limitation in the texture binding procedure caused by the memory limitation of OpenGl and the use of a vector for storage and search. I figured it was a great way to show my data structure skills, while improving upon the software to promote scalability. In this ePortfolio, I will present a code review of these two artifacts, present my enhancements in the fields of software design and engineering, algorithms and data structure, and databases, and provide narratives to guide and demonstrate my reasoning and intention behind the choices I made.
 
-#### Code Review
+### Code Review
 
 <iframe width="800" height="450"
 src="https://www.youtube.com/watch?v=dKT4LvNIoVE"
