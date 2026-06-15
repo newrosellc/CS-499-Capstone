@@ -24,7 +24,7 @@ For this enhancement, I selected my Android-based Inventory Management applicati
 
 The original completed application had a basic user interface and use-case. In order to improve upon that model and demonstrate my skills in software design and engineering, I chose to expand that use-case and allow Administative access by creating a separate landing page and additional privileges and data tables. Both hosts contain the overall layout, including the hover button, the footer, the appbar menu, the searchbar and the sort by features. The LoginActivity now leads to either the Admin or the Basic Activity, directing navigation.
 
-<img src="images/BasicActivity.png" width="600"> <img src="images/AdminActivity.png" width="600"> 
+<img src="images/BasicActivity.png" width="600"> <img src="images/AdminActivity.png" width="600"> <img src="images/SortableInterface.png" width="600"> <img src="images/InheritBothFragments.png" width="600">
 
 The application was redesigned using a parent-child fragment structure. The AdminFragment acts as the central container, hosting both UserListFragment and InventoryFragment. The BasicFragment hosts only the Inventory fragment.
 
