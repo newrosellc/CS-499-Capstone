@@ -9,7 +9,7 @@ title: Algorithms and Data Structures Enhancement
 
 For this enhancement, I selected my OpenGL 3D scene project as the primary artifact. The original project focused on using Visual Studio to render a 3D scene, including texture, material and lighting, from a picture reference. I chose to challenge myself and rendered a bookshelf scene, containing books, candles, crystal balls and many other objects.
 
- <img src="images/BookShelf.png" width="300">  <img src="images/Bookshelf Recreated.png" width="400">
+<img src="images/BookShelf.png" width="300">  <img src="images/Bookshelf Recreated.png" width="400">
 
 Unfortunately, the limitations of OpenGL and of the coding template forced me to stay within a maximum of 16 textures. My enhancement is designed to demonstrate my ability to refactor code to allow for more scalability, while recognizing performance trade-offs, by overcoming that limitation by changing the search and storage methods used in texturing rendering.
 
@@ -49,9 +49,20 @@ To address this issue, I removed the vector responsible for storing textures, an
 
 Still, even though the vector searches were called with every rendering, and I improved that by calling the unordered map, I wanted to improve upon the fact that I was binding and unbinding textures repeatedly and redundantly during my RenderScene() call. The call to CreateBooks involved me binding and unbinding the “pages” texture multiple times, despite my knowing I would use it again in the next book.
 
+<img src="images/CreateBooks.png" width="500">
+
+<img src="images/CreateBookMethod.png" width="500">
+
 So, I decided I could improve upon that by grouping the usages of each texture, and have them called together. This would mean all usages of the texture “pages” would be rendered at once, then that texture would be replaced with the next texture, and all of those usages would be rendered at once, and so on. This removed the redundancy I recognized and was accomplished using another unordered map, but this one stored the instructions of each object that would be rendered in a struct and assigned that struct to the texture it used as the key.
 
+<img src="images/newUnorderedRenderCommand.png" width="500">
+
+<img src="images/RenderCommand.png" width="500">
+
 Prior to the RenderScene() call, the PrepareScene renders all of the objects and stores their information in the struct according to their texture key.Then  the RenderScene() function iterates through the map, binds a texture once, and then renders every object associated with that texture before moving to the next group.
+
+<img src="images/newPrepareScene.png" width="400"> <img src="images/newRenderScene.png" width="400">
+
 
 Overall, this design removes the previous texture slot limitation because textures can now be loaded dynamically and retrieved through their tags rather than requiring fixed slot assignments. It also reduces the number of texture binding operations performed during rendering by algorithmically organizing the objects by their texture.
 
@@ -64,6 +75,8 @@ The use of an unordered_map provides average-case O(1) lookup performance when r
 The primary tradeoff is the use of additional memory to store render commands and texture groupings. In exchange, the rendering system gains improved scalability, cleaner organization, reduced texture binding overhead, and support for a much larger number of textures than the original design.
 
 To prove that I had access to more textures, I replaced the texture of some objects to show my expanded texture capacity.
+
+ <img src="images/BookShelf Recreated.png" width="400">  <img src="images/newRendered2.png" width="400">
 
 ### Skills Demonstrated
 
