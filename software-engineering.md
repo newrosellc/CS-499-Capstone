@@ -1,3 +1,8 @@
+---
+layout: default
+title: Software Engineering Enhancement
+---
+
 # Software Engineering Enhancement
 
 ## Artifact
