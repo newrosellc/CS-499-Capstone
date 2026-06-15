@@ -1,3 +1,8 @@
+---
+layout: default
+title: SNHU Computer Science Capstone
+---
+
 # Amber Rose
 
 ## SNHU Computer Science Capstone
