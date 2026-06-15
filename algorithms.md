@@ -9,7 +9,9 @@ title: Algorithms and Data Structures Enhancement
 
 For this enhancement, I selected my OpenGL 3D scene project as the primary artifact. The original project focused on using Visual Studio to render a 3D scene, including texture, material and lighting, from a picture reference. I chose to challenge myself and rendered a bookshelf scene, containing books, candles, crystal balls and many other objects.
 
-Unfortunately, the limitations of OpenGL and of the coding template forced me to stay within a maximum of 16 textures. My enhancement is designed to demonstrate my ability to refactor code to allow for more scalability, while recognizing performance tradeoffs, by overcoming that limitation by changing the search and storage methods used in texturing rendering.
+ <img src="images/BookShelf.png" width="300">  <img src="images/Bookshelf Recreated.png" width="300">
+
+Unfortunately, the limitations of OpenGL and of the coding template forced me to stay within a maximum of 16 textures. My enhancement is designed to demonstrate my ability to refactor code to allow for more scalability, while recognizing performance trade-offs, by overcoming that limitation by changing the search and storage methods used in texturing rendering.
 
 Purpose of the Enhancement
 * Support for unlimited texture usage at runtime
@@ -22,6 +24,8 @@ Purpose of the Enhancement
 ### Technical Approach and Design Decisions
 
 The original implementation loaded textures into a fixed set of OpenGL texture slots. While functional, this approach introduced a limitation on the number of textures available in the scene. Each texture required a dedicated slot, limiting expansion and making future additions more difficult.
+
+ <img src="images/TextureVector.png" width="600"> <img src="images/LoadTexture1.png" width="600"> <img src="images/LoadTexture2.png" width="600"> <img src="images/ogBindTexture.png" width="600">
 
 To address this issue, I removed the vector responsible for storing textures, and the affiliated method, and replaced it with an unordered map. The plan was to choose bind textures during runtime, rather than all at once before rendering the scene, and simply replacing the active texture as each mesh was rendered. Unfortunately, the processing would take a hit doing searches to the vector with every call to RenderScene, since searching by value with a vector has O(n) time complexity, so that’s why I chose an unordered map instead, which is O(1) on average, with O(n) as its worst-case. So I set out refactoring all areas that called the vector, and began replacing them with calls to the unordered map instead.
 
