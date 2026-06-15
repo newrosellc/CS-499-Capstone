@@ -1,3 +1,8 @@
+---
+layout: default
+title: Algorithms and Data Structures Enhancement
+---
+
 # Algorithms and Data Structures Enhancement
 
 ## Artifact
