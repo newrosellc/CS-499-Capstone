@@ -22,11 +22,23 @@ For this enhancement, I selected my Android-based Inventory Management applicati
 
 ### Technical Approach and Design Decisions
 
-The application was redesigned using a parent-child fragment structure. The AdminFragment acts as the central container, hosting both UserListFragment and InventoryFragment. The BasicFragment hosts only the Inventory fragment. Both hosts contain the overall layout, including the hover button, the footer, the appbar menu, the searchbar and the sort by features. The LoginActivity now leads to either the Admin or the Basic Activity, directing navigation. For testing, the current way to create an admin account is to use the username **“admin.”** 
+The original completed application had a basic user interface and use-case. In order to improve upon that model and demonstrate my skills in software design and engineering, I chose to expand that use-case and allow Administative access by creating a separate landing page and additional privileges and data tables. Both hosts contain the overall layout, including the hover button, the footer, the appbar menu, the searchbar and the sort by features. The LoginActivity now leads to either the Admin or the Basic Activity, directing navigation.
 
-Login now requires a minimum of 8 characters for the password, as well as a capital letter and a number. The requirements are now visible after selecting “Sign up.” The password is hashed prior to entering the database for greater security. The role and userId are stored in a Session manager, which keeps account of the user logged in, the time since last active, and the target user selected during admin interactions as well.
+<img src="images/BasicActivity.png" width="600"> <img src="images/AdminActivity.png" width="600"> 
+
+The application was redesigned using a parent-child fragment structure. The AdminFragment acts as the central container, hosting both UserListFragment and InventoryFragment. The BasicFragment hosts only the Inventory fragment.
+
+<img src="images/AdminFragments.png" width="600"> <img src="images/AdminFeatures.png" width="600"> <img src="images/SwitchViews.png" width="600">
+<img src="images/AllUsers.png" width="600"> <img src="images/AllInventory.png" width="600"> <img src="images/newFooter.png" width="600">
+
+Login now requires a minimum of 8 characters for the password, as well as a capital letter and a number. The requirements are now visible after selecting “Sign up.” The password is hashed prior to entering the database for greater security. The role and userId are stored in a Session manager, which keeps account of the user logged in, the time since last active, and the target user selected during admin interactions as well.  For testing, the current way to create an admin account is to use the username **“admin.”** 
+
+<img src="images/newLoginToast.png" width="600">  <img src="images/SessionManager1.png" width="600"> <img src="images/SessionManager1.png" width="600">
 
 In the Item Details, the user is now able to set their low stock amount so they may be notified once that custom amount is hit for that particular item. The detail fragments are now dialogue fragments, allowing them to overlay the fragments they come from without needing to replace them entirely. This reduces navigation overhead and provides modern interaction. User Details are a new feature, with the only edit ability currently being the ability to change a user’s role. I disabled the ability for the logged in admin user from being able to edit or delete their own account, but they can still view their own details. The footer adapts by active Fragment, and calculates totals via new Database queries. They update after adding items, editing details, and deleting items or users.
+
+<img src="images/DialogueFragment.png" width="600"> <img src="images/EditUser.png" width="600"> <img src="images/EditUserAdmin.png" width="600">
+
 
 ### Skills Demonstrated
 
