@@ -3,42 +3,16 @@ layout: default
 title: SNHU Computer Science Capstone
 ---
 
-# Amber Rose
+# SNHU Computer Science Capstone
+## Amber Rose
 
-## SNHU Computer Science Capstone
 # Professional Self-Assessment
 
 ## Introduction
+I am Amber Rose. I have reached the completion of my Computer Science program, having worked and learned a great deal since beginning this journey since January of 2024. Along the way, I picked up a number of skills that will carry onto any field I apply myself to. I am currently employed as an Algebra Highshool teacher, and I plan to help my students understand how to think using logic, as the universe operates on a rule-based system. I hope to utilize my degree to not only teach my students skills that they will need in this technologically evolving landscape, but to create tools that can facilitate that process further.
 
-Completing the Computer Science program at Southern New Hampshire University has provided me with experience in software development, database design, algorithms, security, and project management. Throughout the program, I developed technical skills while learning how to communicate complex technical concepts to different audiences.
-
-## Collaboration and Communication
-
-Throughout my coursework, I created technical documentation, project proposals, enhancement narratives, and presentations. These experiences strengthened my ability to communicate technical information clearly and professionally.
-
-## Software Engineering and Design
-
-My software engineering enhancement focused on expanding an Android Inventory Management application. I implemented role-based access, session management, password validation, password hashing, and a modular fragment architecture. These enhancements improved maintainability, scalability, and security.
-
-## Algorithms and Data Structures
-
-My algorithms and data structures enhancement focused on an OpenGL graphics project. I redesigned the rendering system using texture batching and hash-based lookups through unordered maps. This reduced texture lookup complexity from O(n) to approximately O(1), improving rendering efficiency while demonstrating the importance of selecting appropriate data structures.
-
-## Databases
-
-My database enhancement expanded the inventory application to support multiple users, administrator functionality, and improved database relationships. The enhancements demonstrated database design principles, query management, and secure handling of user information.
-
-## Security
-
-Security concepts were incorporated throughout the portfolio enhancements. Password hashing, user validation, role-based access controls, and restricted administrative actions helped protect user data and reduce potential vulnerabilities.
-
-## Conclusion
-
-The artifacts included in this portfolio demonstrate my growth as a computer science student and showcase my abilities in software engineering, algorithms and data structures, database design, and security. Together, these enhancements reflect my ability to design, implement, and evaluate computing solutions while considering performance, maintainability, and user needs.
-
-
-
-Throughout my Computer Science program at SNHU, I’ve grown from learning isolated programming concepts to understanding how to design and build complete, structured software systems. Completing coursework across programming, data structures, software engineering, and databases has helped me develop a stronger foundation in both technical skills and problem-solving. More importantly, building my ePortfolio allowed me to connect everything I’ve learned into real, applied projects that demonstrate my ability to design scalable solutions, debug complex systems, and think like a developer rather than just a student completing assignments.
+## Reflecting on my Education
+Throughout my Computer Science program at SNHU, I’ve learned to design and build complete, secure, and structured software systems. Completing coursework that taught me data stuctures, databases, software security, algorithms, and even gaming design, by my own selection, has helped me develop a stronger foundation in technical skill, problem-solving, and designing for user experience. More importantly, this Capstone allows me to reflect on all that I've learned and allowed me to apply that knowledge to demonstrate my ability to design scalable solutions, recognize and protect vulnerable software, and refactor code to promote efficiency while ackowledging trade-offs.
 
 One of the biggest areas of growth for me has been understanding how different parts of a system work together. In earlier courses, I focused heavily on making code function correctly, but over time I learned to prioritize structure, maintainability, and efficiency. For example, in my Android Inventory application, I worked with databases, fragments, and session-based user roles to manage data dynamically. In my OpenGL project, I focused on improving rendering efficiency and structuring scene data in a way that reduces unnecessary computation. These experiences helped me understand how software engineering, algorithms, and data structures all connect in real systems rather than existing as separate topics.
 
