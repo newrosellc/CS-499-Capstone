@@ -3,7 +3,6 @@ layout: default
 title: SNHU Computer Science Capstone
 ---
 
-# SNHU Computer Science Capstone ePortfolio
 ## Professional Self-Assessment
 
 ### Introduction
