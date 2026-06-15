@@ -30,7 +30,11 @@ The database structure was redesigned to support multiple users while maintainin
 
 The login also allowed password inputs of any length or complexity, so I added password hashing and validation to create greater security within the database. 
 
+<img src="images/PasswordHashing.png" width="300"> <img src="images/newLoginVerify.png" width="300">
+
 I refactored the database logic to use foreign key query searches, ensuring that inventory access was separated by user. This meant refactoring all queries, and while doing so, I reduced redundancy by creating separate methods for repeated processes. I created a userId, to use as the foreign key, and lowStock column in my database. I also added aggregated queries to create total inventory and user counts and summations.
+
+<img src="images/newItemDatabase.png" width="600"> <img src="images/Agregation.png" width="600"> <img src="images/ogQueryAll.png" width="600">
 
 I expanded and improved upon the login database to include user roles in order to create a separate admin experience. In that space, an admin can query the database to view a user list, similar to the inventory list, and can edit user inventories and role-based privileges.
  
