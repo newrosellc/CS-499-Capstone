@@ -12,12 +12,12 @@ For this enhancement, I selected my OpenGL 3D scene project as the primary artif
 Unfortunately, the limitations of OpenGL and of the coding template forced me to stay within a maximum of 16 textures. My enhancement is designed to demonstrate my ability to refactor code to allow for more scalability, while recognizing performance tradeoffs, by overcoming that limitation by changing the search and storage methods used in texturing rendering.
 
 Purpose of the Enhancement
-*Support for unlimited texture usage at runtime
-*Improved texture searching through an unordered map
-*RenderCommand structure for storing object rendering data
-*Grouping objects by texture rather than drawing objects individually using an unordered map
-*Reduction of redundant texture binding operations
-*Performance improvements within the RenderScene loop
+* Support for unlimited texture usage at runtime
+* Improved texture searching through an unordered map
+* RenderCommand structure for storing object rendering data
+* Grouping objects by texture rather than drawing objects individually using an unordered map
+* Reduction of redundant texture binding operations
+* Performance improvements within the RenderScene loop
 
 ### Technical Approach and Design Decisions
 
@@ -45,8 +45,8 @@ To prove that I had access to more textures, I replaced the texture of some obje
 
 ### Skills Demonstrated
 
-*Implemented an unordered_map-based rendering architecture to improve texture organization and lookup efficiency.
-*Applied algorithmic analysis by evaluating O(1) hash map access compared to repeated O(n) vector texture lookup.
-*Designed a RenderCommand structure that separates scene creation from scene rendering.
-*Evaluated tradeoffs between memory usage and rendering efficiency.
-*Improved scalability by removing the fixed texture slot limitation and supporting dynamic texture management.
+* Implemented an unordered_map-based rendering architecture to improve texture organization and lookup efficiency.
+* Applied algorithmic analysis by evaluating O(1) hash map access compared to repeated O(n) vector texture lookup.
+* Designed a RenderCommand structure that separates scene creation from scene rendering.
+* Evaluated tradeoffs between memory usage and rendering efficiency.
+* Improved scalability by removing the fixed texture slot limitation and supporting dynamic texture management.
