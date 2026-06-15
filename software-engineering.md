@@ -34,9 +34,7 @@ The application was redesigned using a parent-child fragment structure. The Admi
 
 Login now requires a minimum of 8 characters for the password, as well as a capital letter and a number. The requirements are now visible after selecting “Sign up.” The password is hashed prior to entering the database for greater security. The role and userId are stored in a Session manager, which keeps account of the user logged in, the time since last active, and the target user selected during admin interactions as well.  For testing, the current way to create an admin account is to use the username **“admin.”** 
 
-<img src="images/newLoginToast.png" width="300"> 
-
-<img src="images/SessionManager1.png" width="400"> <img src="images/SessionManager2.png" width="400">
+<img src="images/newLoginToast.png" width="300"> <img src="images/SessionManager1.png" width="300"> <img src="images/SessionManager2.png" width="400">
 
 In the Item Details, the user is now able to set their low stock amount so they may be notified once that custom amount is hit for that particular item. The detail fragments are now dialogue fragments, allowing them to overlay the fragments they come from without needing to replace them entirely. This reduces navigation overhead and provides modern interaction. User Details are a new feature, with the only edit ability currently being the ability to change a user’s role. I disabled the ability for the logged in admin user from being able to edit or delete their own account, but they can still view their own details. The footer adapts by active Fragment, and calculates totals via new Database queries. They update after adding items, editing details, and deleting items or users.
 
