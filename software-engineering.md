@@ -54,5 +54,5 @@ In the Item Details, the user is now able to set their low stock amount so they 
 
 ### Source Code
 
-- [Original Source Code](https://github.com/newrosellc/CS-499-Capstone/blob/main/InventoryProjectCS360.zip)
+- [Original Project](https://github.com/newrosellc/CS-499-Capstone/blob/main/InventoryProjectCS360.zip)
 - [Enhanced Project](https://github.com/newrosellc/CS-499-Capstone/blob/main/InventoryProjectUpdated.7z)
