@@ -85,3 +85,6 @@ To prove that I had access to more textures, I replaced the texture of some obje
 * Designed a RenderCommand structure that separates scene creation from scene rendering.
 * Evaluated tradeoffs between memory usage and rendering efficiency.
 * Improved scalability by removing the fixed texture slot limitation and supporting dynamic texture management.
+
+- [Original Porject](https://github.com/newrosellc/GAM-303-Design-of-Virtual-Game-Env)
+- [Updated Project](https://github.com/newrosellc/CS-499-Capstone/blob/main/OpenGLProjectUpdated.7z)
