@@ -43,6 +43,10 @@ To address this issue, I removed the vector responsible for storing textures, an
 
 <img src="images/newUnorderedTexture.png" width="500">
 
+<img src="images/newSetShader.png" width="500">
+
+<img src="images/newFindTextureMap.png" width="500">
+
 Still, even though the vector searches were called with every rendering, and I improved that by calling the unordered map, I wanted to improve upon the fact that I was binding and unbinding textures repeatedly and redundantly during my RenderScene() call. The call to CreateBooks involved me binding and unbinding the “pages” texture multiple times, despite my knowing I would use it again in the next book.
 
 So, I decided I could improve upon that by grouping the usages of each texture, and have them called together. This would mean all usages of the texture “pages” would be rendered at once, then that texture would be replaced with the next texture, and all of those usages would be rendered at once, and so on. This removed the redundancy I recognized and was accomplished using another unordered map, but this one stored the instructions of each object that would be rendered in a struct and assigned that struct to the texture it used as the key.
