@@ -28,11 +28,13 @@ title: SNHU Computer Science Capstone
 
 ### Code Review
 
-<iframe width="800" height="450"
-src="https://www.youtube.com/watch?v=dKT4LvNIoVE"
-title="Code Review"
-frameborder="0"
-allowfullscreen>
+<iframe
+   width="800"
+   height="450"
+   src="https://www.youtube.com/embed/dKT4LvNIoVE"
+   title="Code Review"
+   frameborder="0"
+   allowfullscreen>
 </iframe>
 
 #### Portfolio Sections
