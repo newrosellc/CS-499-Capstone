@@ -30,7 +30,7 @@ The database structure was redesigned to support multiple users while maintainin
 
 The login also allowed password inputs of any length or complexity, so I added password hashing and validation to create greater security within the database. 
 
-<img src="images/PasswordHashing.png" width="300"> <img src="images/newLoginVerify.png" width="300">
+<img src="images/PasswordHashing.png" width="400"> <img src="images/newLoginVerify.png" width="300">
 
 I refactored the database logic to use foreign key query searches, ensuring that inventory access was separated by user. This meant refactoring all queries, and while doing so, I reduced redundancy by creating separate methods for repeated processes. I created a userId, to use as the foreign key, and lowStock column in my database. I also added aggregated queries to create total inventory and user counts and summations.
 
