@@ -1,7 +1,7 @@
 # Site and Theme
 title: Amber Rose ePortfolio
 description: SNHU CS-499 Capstone ePortfolio
-remote_theme: pages-themes/midnight@v0.2.0
+theme: jekyll-theme-midnight
 
 # Where things are
 source              : .
@@ -34,7 +34,7 @@ unpublished         : false
 
 # Plugins
 whitelist           : []
-plugins             : [jekyll-remote-theme]
+plugins             : []
 
 # Conversion
 markdown            : kramdown
