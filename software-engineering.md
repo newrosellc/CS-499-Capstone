@@ -30,7 +30,7 @@ The application was redesigned using a parent-child fragment structure. The Admi
 
 <img src="images/AdminFragments.png" width="600"> <img src="images/AdminFeatures.png" width="600"> <img src="images/SwitchViews.png" width="600">
 
-<img src="images/AllUsers.png" width="300"> <img src="images/AllInventory.png" width="300"> <img src="images/TargetInventory.png" width="300">
+<img src="images/AllUsers.png" width="250"> <img src="images/AllInventory.png" width="250"> <img src="images/TargetInventory.png" width="250"> <img src="images/UserPopup.png" width="250">
 
 Login now requires a minimum of 8 characters for the password, as well as a capital letter and a number. The requirements are now visible after selecting “Sign up.” The password is hashed prior to entering the database for greater security. The role and userId are stored in a Session manager, which keeps account of the user logged in, the time since last active, and the target user selected during admin interactions as well.  For testing, the current way to create an admin account is to use the username **“admin.”** 
 
