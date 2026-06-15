@@ -25,7 +25,13 @@ Purpose of the Enhancement
 
 The original implementation loaded textures into a fixed set of OpenGL texture slots. While functional, this approach introduced a limitation on the number of textures available in the scene. Each texture required a dedicated slot, limiting expansion and making future additions more difficult.
 
-<img src="images/TextureVector.png" width="500"> <img src="images/LoadTexture1.png" width="500"> <img src="images/LoadTexture2.png" width="500"> <img src="images/ogBindTexture.png" width="500">
+<img src="images/TextureVector.png" width="500">
+
+<img src="images/LoadTexture1.png" width="500">
+
+<img src="images/LoadTexture2.png" width="500">
+
+<img src="images/ogBindTexture.png" width="500">
 
 To address this issue, I removed the vector responsible for storing textures, and the affiliated method, and replaced it with an unordered map. The plan was to choose bind textures during runtime, rather than all at once before rendering the scene, and simply replacing the active texture as each mesh was rendered. Unfortunately, the processing would take a hit doing searches to the vector with every call to RenderScene, since searching by value with a vector has O(n) time complexity, so that’s why I chose an unordered map instead, which is O(1) on average, with O(n) as its worst-case. So I set out refactoring all areas that called the vector, and began replacing them with calls to the unordered map instead.
 
