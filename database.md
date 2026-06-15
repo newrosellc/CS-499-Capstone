@@ -44,3 +44,6 @@ To support these features, as well as separation of privileges, the foreign key 
 * Mastery of foreign key data queries.
 * Demonstrate an ability to design scalable database solutions.
 * Applied software engineering principles to separate data management, business logic, and user interface responsibilities.
+
+- []()
+- []()
