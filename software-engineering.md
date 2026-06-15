@@ -9,7 +9,7 @@ title: Software Engineering Enhancement
 
 For this enhancement, I selected my Android-based Inventory Management application as the primary artifact. My enhancement is designed to support standard and administrator roles, along with a target-user viewing mode that allows administrators to inspect and manage inventory data for specific users, as well as a more secure login process. These enhancements significantly expands the application by introducing an administrative interface, modular fragment-based architecture, and improved user and inventory management capabilities. The skills I aim to demonstrate are an understanding of scalable software design, improved separation of concerns, and a security mindset.
 
-###Purpose of the Enhancement
+### Purpose of the Enhancement
 
 *Admin view (all users and all inventory)
 *Basic View (fragment container for basic user access)
@@ -20,7 +20,7 @@ For this enhancement, I selected my Android-based Inventory Management applicati
 *Password validation and hashing
 *Privilege changing via admin view (Allows admin to promote other accounts to the admin role)
 
-###Technical Approach and Design Decisions
+### Technical Approach and Design Decisions
 
 The application was redesigned using a parent-child fragment structure. The AdminFragment acts as the central container, hosting both UserListFragment and InventoryFragment. The BasicFragment hosts only the Inventory fragment. Both hosts contain the overall layout, including the hover button, the footer, the appbar menu, the searchbar and the sort by features. The LoginActivity now leads to either the Admin or the Basic Activity, directing navigation. For testing, the current way to create an admin account is to use the username **“admin.”** 
 
@@ -28,7 +28,7 @@ Login now requires a minimum of 8 characters for the password, as well as a capi
 
 In the Item Details, the user is now able to set their low stock amount so they may be notified once that custom amount is hit for that particular item. The detail fragments are now dialogue fragments, allowing them to overlay the fragments they come from without needing to replace them entirely. This reduces navigation overhead and provides modern interaction. User Details are a new feature, with the only edit ability currently being the ability to change a user’s role. I disabled the ability for the logged in admin user from being able to edit or delete their own account, but they can still view their own details. The footer adapts by active Fragment, and calculates totals via new Database queries. They update after adding items, editing details, and deleting items or users.
 
-###Skills Demonstrated
+### Skills Demonstrated
 
 *Application was restructured into a modular, fragment-based architecture that separates UI components and promotes reusability.
 *Demonstrated object-oriented design by using fragments and dialog fragments to encapsulate specific responsibilities.
