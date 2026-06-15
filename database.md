@@ -42,7 +42,7 @@ I expanded and improved upon the login database to include user roles in order t
 
 They can view all inventories within the database, or only databases for specific users, through the foreign key query, and the totals update depending on view. They can also delete users and items as well.
 
-<img src="images/UserPopup.png" width="300"> <img src="images/EditUser.png" width="300"> <img src="TargetInventory.png" width="300">
+<img src="images/UserPopup.png" width="300"> <img src="images/EditUser.png" width="300"> <img src="images/TargetInventory.png" width="300">
 
 To support these features, as well as separation of privileges, the foreign key queries and different parameters were utilized according to user role.
 
