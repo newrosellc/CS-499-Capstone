@@ -24,6 +24,8 @@ For this enhancement, I selected my Android-based Inventory Management applicati
 
 The database structure was redesigned to support multiple users while maintaining separation between user accounts and inventory records. The previous iteration of the application functioned as an inventory application, but every user accessed the same inventory. This was due to the inventory queries passing SELECT * without any foreign key to specify the user.
 
+<img src="images/ogInvLogin.png" width="600"> <img src="images/ogOtherPerson.png" width="600"> <img src="images/SortableInterface.png" width="600"> <img src="images/InheritBothFragments.png" width="600">
+
 The login also allowed password inputs of any length or complexity, so I added password hashing and validation to create greater security within the database. 
 
 I refactored the database logic to use foreign key query searches, ensuring that inventory access was separated by user. This meant refactoring all queries, and while doing so, I reduced redundancy by creating separate methods for repeated processes. I created a userId, to use as the foreign key, and lowStock column in my database. I also added aggregated queries to create total inventory and user counts and summations.
