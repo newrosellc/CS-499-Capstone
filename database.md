@@ -18,7 +18,7 @@ For this enhancement, I selected my Android-based Inventory Management applicati
 * Create a low-stock column for custom notification settings per user and inventory.
 * Expand database queries to support userId and role based queries
 * Create Sum and Count queries to support inventory summaries
-*  Improve database interaction by reducing redundancy
+* Improve database interaction by reducing redundancy
 
 ### Technical Approach and Design Decisions
 
@@ -45,5 +45,5 @@ To support these features, as well as separation of privileges, the foreign key 
 * Demonstrate an ability to design scalable database solutions.
 * Applied software engineering principles to separate data management, business logic, and user interface responsibilities.
 
-- []()
-- []()
+- [Original Project](https://github.com/newrosellc/CS-499-Capstone/blob/main/InventoryProjectCS360.zip)
+- [Enhanced Project](https://github.com/newrosellc/CS-499-Capstone/blob/main/InventoryProjectUpdated.7z)
