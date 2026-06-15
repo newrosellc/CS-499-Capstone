@@ -76,7 +76,7 @@ The primary tradeoff is the use of additional memory to store render commands an
 
 To prove that I had access to more textures, I replaced the texture of some objects to show my expanded texture capacity.
 
- <img src="images/BookShelf Recreated.png" width="400">  <img src="images/newRendered2.png" width="400">
+ <img src="images/Bookshelf Recreated.png" width="400">  <img src="images/newRendered2.png" width="400">
 
 ### Skills Demonstrated
 
