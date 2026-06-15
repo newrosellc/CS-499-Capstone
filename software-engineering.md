@@ -11,14 +11,14 @@ For this enhancement, I selected my Android-based Inventory Management applicati
 
 ### Purpose of the Enhancement
 
-*Admin view (all users and all inventory)
-*Basic View (fragment container for basic user access)
-*User List Fragment (displays a list of the users from the Database)
-*Inventory List (displays inventory based upon admin and targeted navigation)
-*Target-user inventory inspection mode
-*Dialog Fragment to replace detail fragments (User and Item Detail Fragments)
-*Password validation and hashing
-*Privilege changing via admin view (Allows admin to promote other accounts to the admin role)
+* Admin view (all users and all inventory)
+* Basic View (fragment container for basic user access)
+* User List Fragment (displays a list of the users from the Database)
+* Inventory List (displays inventory based upon admin and targeted navigation)
+* Target-user inventory inspection mode
+* Dialog Fragment to replace detail fragments (User and Item Detail Fragments)
+* Password validation and hashing
+* Privilege changing via admin view (Allows admin to promote other accounts to the admin role)
 
 ### Technical Approach and Design Decisions
 
@@ -30,9 +30,9 @@ In the Item Details, the user is now able to set their low stock amount so they 
 
 ### Skills Demonstrated
 
-*Application was restructured into a modular, fragment-based architecture that separates UI components and promotes reusability.
-*Demonstrated object-oriented design by using fragments and dialog fragments to encapsulate specific responsibilities.
-*Uses interface-based callbacks and fragment result communication to coordinate updates between independent components.
-*Supports dynamic view switching within a single activity, improving usability while maintaining a clean and scalable navigation structure.
-*Introduction of session-based user context allows the application to dynamically adjust behavior based on user role and selected target user.
-*Added secure login validation and password hashing to promote security centered software development.
+* Application was restructured into a modular, fragment-based architecture that separates UI components and promotes reusability.
+* Demonstrated object-oriented design by using fragments and dialog fragments to encapsulate specific responsibilities.
+* Uses interface-based callbacks and fragment result communication to coordinate updates between independent components.
+* Supports dynamic view switching within a single activity, improving usability while maintaining a clean and scalable navigation structure.
+* Introduction of session-based user context allows the application to dynamically adjust behavior based on user role and selected target user.
+* Added secure login validation and password hashing to promote security centered software development.
