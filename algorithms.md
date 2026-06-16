@@ -9,7 +9,7 @@ title: Algorithms and Data Structures Enhancement
 
 For this enhancement, I selected my OpenGL 3D scene project as the primary artifact. The original project focused on using Visual Studio to render a 3D scene, using meshes, textures, materials and lighting, from a picture reference. I chose to challenge myself and rendered a bookshelf scene, containing books, candles, crystal balls and many other objects.
 
-<img src="images/BookShelf.png" width="350">  <img src="images/Bookshelf Recreated.png" width="450">
+<img src="images/BookShelf.png" width="250">  <img src="images/Bookshelf Recreated.png" width="350">
 
 Unfortunately, the limitations of OpenGL and of the coding template forced me to stay within a maximum of 16 textures. My enhancement is designed to demonstrate my ability to refactor code to allow for more scalability, while recognizing performance trade-offs, by overcoming that limitation. To do so, I chose to replace the vector search and storage methods used in texturing binding and rendering.
 
@@ -61,7 +61,7 @@ So, I decided I could improve upon that by grouping the usages of each texture, 
 
 Prior to the RenderScene() call, the PrepareScene renders all of the objects once and stores their information to the struct according to their texture key. Then the RenderScene() function iterates through the map, binds a texture, and then renders every object associated with that texture before moving to the next group.
 
-<img src="images/newPrepareScene.png" width="400"> <img src="images/newRenderScene.png" width="400">
+<img src="images/newPrepareScene.png" width="300"> <img src="images/newRenderScene.png" width="300">
 
 Overall, this design removes the previous texture slot limitation because textures can now be loaded dynamically and retrieved through their tags rather than requiring fixed slot assignments. It also reduces the number of texture binding operations performed during rendering by algorithmically organizing the objects by their texture.
 
@@ -75,7 +75,7 @@ The primary tradeoff is the use of additional memory to store render commands an
 
 To prove that I had access to more textures, I replaced the texture of some objects to show my expanded texture capacity.
 
- <img src="images/Bookshelf Recreated.png" width="400">  <img src="images/newRendered2.png" width="400">
+ <img src="images/Bookshelf Recreated.png" width="300">  <img src="images/newRendered2.png" width="300">
 
 ### Skills Demonstrated
 
@@ -85,5 +85,5 @@ To prove that I had access to more textures, I replaced the texture of some obje
 * Evaluated tradeoffs between memory usage and rendering efficiency.
 * Improved scalability by removing the fixed texture slot limitation and supporting dynamic texture management.
 
-- [Original Porject](https://github.com/newrosellc/GAM-303-Design-of-Virtual-Game-Env)
+- [Original Project](https://github.com/newrosellc/CS-499-Capstone/blob/main/CS330%20FinalProject.zip)
 - [Updated Project](https://github.com/newrosellc/CS-499-Capstone/blob/main/OpenGLProjectUpdated.7z)
