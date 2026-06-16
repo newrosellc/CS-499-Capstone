@@ -46,7 +46,7 @@ They can view all inventories within the database, or only databases for specifi
 
 To support these features, as well as separation of privileges, the foreign key queries and different parameters were utilized according to user role.
 
-<img src="images/AdminVUserSearch.png" width="300"> <img src="images/newTargetUserItem.png" width="350">
+<img src="images/AdminVUserSearch.png" width="350"> <img src="images/newTargetUserItem.png" width="350">
 
 ### Skills Demonstrated
 
