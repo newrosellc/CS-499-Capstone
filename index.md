@@ -7,7 +7,7 @@ title: SNHU Computer Science Capstone
 
 ### Introduction
 
-   Hello, World! Welcome to my ePortfolio. My name is Amber Rose, and I am an artist, a gamer, a math enthusiast, and a Computer Science major. I have reached the completion of my SNHU Computer Science program, having worked and learned a great deal since I started this journey back in January of 2024. Along the way, I picked up a number of skills that I will carry into any field I apply myself to. I am currently employed as a Highshool Algebra teacher, and I plan to help my students understand how to think using logic. The laws of the universe operate on a rule-based system, just as software does. I hope to utilize my degree to not only teach my students skills that they will need in this technologically evolving landscape, but to create tools that can facilitate that learning process further.
+   Hello, World! Welcome to my ePortfolio. My name is Amber Rose, and I am an artist, a gamer, a math enthusiast, and a Computer Science major. I have reached the completion of my SNHU Computer Science program, having worked and learned a great deal since I started this journey back in January of 2024. Along the way, I picked up a number of skills that I will carry into any field I apply myself to. I am currently employed as a High School Algebra teacher, and I plan to help my students understand how to think using logic. The laws of the universe operate on a rule-based system, just as software does. I hope to utilize my degree to not only teach my students skills that they will need in this technologically evolving landscape, but to create tools that can facilitate that learning process further.
 
 ### Reflecting on my Education
 
