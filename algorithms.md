@@ -9,7 +9,7 @@ title: Algorithms and Data Structures Enhancement
 
 For this enhancement, I selected my OpenGL 3D scene project as the primary artifact. The original project focused on using Visual Studio to render a 3D scene, using meshes, textures, materials and lighting, from a picture reference. I chose to challenge myself and rendered a bookshelf scene, containing books, candles, crystal balls and many other objects.
 
-<img src="images/BookShelf.png" width="250">  <img src="images/Bookshelf Recreated.png" width="350">
+<img src="images/BookShelf.png" width="250">  <img src="images/Bookshelf Recreated.png" width="300">
 
 Unfortunately, the limitations of OpenGL and of the coding template forced me to stay within a maximum of 16 textures. My enhancement is designed to demonstrate my ability to refactor code to allow for more scalability, while recognizing performance trade-offs, by overcoming that limitation. To do so, I chose to replace the vector search and storage methods used in texturing binding and rendering.
 
