@@ -15,15 +15,19 @@ title: SNHU Computer Science Capstone
    
    Regarding security, courses like CS 405 Secure Coding taught me to recognize the vulnerabilities in software, allowing me to identify access points and protect against bad actors, even when designing simple games or applications. Other courses, like CS 305 Software Security and CS 320 Software Test and Automation, further bolstered my security mindset by demonstrating how to analyse and test code for vulnerability through unit testing and programmer due diligence, as well as external tools, like Maven and Checksum. I now approach software development by thinking about security first in order to guide design choices so that I may protect my software and save time and money in the long run. This practice will benefit any future project or employer, as it indicates my ability to prioritize data security and the investment of our stakeholders and users.
 
+<img src="images/unitTest.png" width="600"> <img src="images/dependecy.png" width="600">
+
    Outside of security, I've taken pride in my projects that have connected conputer science with my love of math and art. I found myself enjoying and appreciating learning about Binary trees and Hash tables in CS 300 Data Structures. I find myself using them more often than I predicted in my own personal projects. One hobby of mine is to attempt to solve unsolved math problems, like the Collatz Conjecture and the Riemmann Hypothesis, and I have been using binary trees and unordered maps to organize and generate nodes for analyzing the values of x and their outputs. Being able to use these algorithms has greatly aided me in calculation and visualizing my work in order to formulate follow-up questions.
 
-<div style="overflow-x:auto; border:1px solid #555; padding:10px;">
-    <img src="images/dynamic_tree_7.png">
+<div style="overflow-x:auto;">
+    <img src="images/dynamic_tree_7.png" width="2000">
 </div>
 
    As an artist and gamer, I also feel I shine most when given the opportunity to demonstrate my skills in visual layout, design and user experience. While most of these classes focus on the code, and there is little time to truly invest in the visual or creative aspects of the projects, courses like CS 319 UI/UX Design and Development, [IT 140 Intro to Scripting](https://github.com/newrosellc/CS-499-Capstone/blob/main/TextBasedGame.py), and [GAM 303 Design of Virtual Game Env](https://github.com/newrosellc/GAM-303-Design-of-Virtual-Game-Env) each gave me a chance to show off my creativity in order to produce unique projects that I could feel proud and passionate about. The project in CS 319 allowed me to consider my understanding of color, layout and the psychology of gamification to create layouts that prioritize user expreience. Both IT 140 and GAM 303 asked me to create a puzzle game to demonstrate my understanding of logic and navigation using software, so I took those opportunities to create experiences that went above what was asked of me within the scope of the class. That creative drive pushed me to not only cement the logic being taught to memory, but to research further and learn additional skills along the way in order to meet the requirements presented by the client, myself.
 
-<img src="images/Puppeteer.png" width="600">
+<img src="images/Finational Loans.png" width="200"> <img src="images/Project 2.png" width="200"> <img src="images/Shopping List.png" width="200"> <img src="images/Screen2.png" width="200">
+
+<img src="images/Puppeteer.png" width="600"> 
 
    Overall, the skills I've learned in this program have broadened my horizons and deepened my understanding of the technological space. It has given me a greater confidence in my ability to discuss and work with a team and produce deliverable software on a week-to-week basis. I feel capable in my skillset, and confident in my ability to contribute to many different areas, from databasing, to architecture, game design, algorithms and security. 
 
