@@ -27,7 +27,7 @@ title: SNHU Computer Science Capstone
 
 <img src="images/Finational Loans.png" width="200"> <img src="images/Project 2.png" width="200"> <img src="images/Shopping List.png" width="200"> <img src="images/Screen2.png" width="200">
 
-<img src="images/Puppeteer.png" width="600"> 
+<img src="images/Puppeteer.png" width="600"> <img src="images/Game.png" width="600">
 
    Overall, the skills I've learned in this program have broadened my horizons and deepened my understanding of the technological space. It has given me a greater confidence in my ability to discuss and work with a team and produce deliverable software on a week-to-week basis. I feel capable in my skillset, and confident in my ability to contribute to many different areas, from databasing, to architecture, game design, algorithms and security. 
 
