@@ -17,7 +17,7 @@ title: SNHU Computer Science Capstone
 
    Outside of security, I've taken pride in my projects that have connected conputer science with my love of math and art. I found myself enjoying and appreciating learning about Binary trees and Hash tables in CS 300 Data Structures. I find myself using them more often than I predicted in my own personal projects. One hobby of mine is to attempt to solve unsolved math problems, like the Collatz Conjecture and the Riemmann Hypothesis, and I have been using binary trees and unordered maps to organize and generate nodes for analyzing the values of x and their outputs. Being able to use these algorithms has greatly aided me in calculation and visualizing my work in order to formulate follow-up questions.
 
-<div style="overflow-x: auto; white-space: nowrap;">
+<div style="overflow-x:auto; border:1px solid #555; padding:10px;">
     <img src="images/dynamic_tree_7.png">
 </div>
 
